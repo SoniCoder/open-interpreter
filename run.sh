@@ -1,0 +1,2 @@
+# interpreter --api_key "fake_key" --api_base http://ip:1234/v1 --context_window 16384 --max_tokens 4096
+interpreter --api_key "fake_key" --api_base http://ip:1234/v1 --context_window 16000 --max_tokens 2048 --no-llm_supports_functions --disable_telemetry --no-llm_supports_vision -m "openai/x"
